@@ -6,7 +6,23 @@
     <title>Web para clinicas</title>
   </head>
   <body>
-    <h1>Pagina de inicio</h1>
     <a href="datospacientes.html">Registrar pacientes</a>
+    <h1>Ingrese a su cuenta</h1>
+    <form action="">
+      <label for="usuario">Usuario</label>
+      <input type="text" placeholder="Nombre" id="usuario" required />
+      <br />
+
+      <label for="contra">Contraseña</label>
+      <input
+        type="password"
+        placeholder="Máximo 20 caracteres"
+        maxlength="20"
+        id="contra"
+        required
+      />
+      <br />
+      <input type="submit" value="Log in" />
+    </form>
   </body>
 </html>
