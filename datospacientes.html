@@ -1,105 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Llena tu registro</title>
-  </head>
-  <body>
-    <a href="index.html">Volver</a>
+</head>
+
+<body>
+    <a href="index.html">Iniciar sesion</a>
     <a href="registrodecita.html">Registrar una cita</a>
 
-    <form action="" method="GET" id="" name="" action="">
-      <h2>Datos de la clínica</h2>
-      <label for="nombre_clinica">Ingrese el nombre de la clínica:</label>
-      <input type="text" maxlength="50" name="" id="nombre_clinica" />
+    <form action="#" method="GET" id="formulario_principal" name="formulario_principal">
+        <h2>Datos de la clínica</h2>
+        <label for="nombre_clinica">Ingrese el nombre de la clínica:</label>
+        <input type="text" maxlength="50" name="nombre_clinica" id="nombre_clinica" />
 
-      <label for="ubicación">Ingrese la ubicación:</label>
-      <input type="text" name="" id="ubicación" />
+        <label for="ubicación">Ingrese la ubicación:</label>
+        <input type="text" name="ubicación" id="ubicación" />
 
-      <h2>Paciente</h2>
-      <label for="nombre_paciente">Nombre del paciente:</label>
-      <input
-        type="text"
-        placeholder="Paciente"
-        name=""
-        id="nombre_paciente"
-        required
-      />
+        <h2>Paciente</h2>
+        <label for="nombre_paciente">Nombre del paciente:</label>
+        <input type="text" placeholder="Paciente" name="nombre_paciente" id="nombre_paciente" required />
 
-      <label for="nombre_madre">Nombre de la madre:</label>
-      <input type="text" placeholder="Madre" name="" id="nombre_madre" />
+        <label for="nombre_madre">Nombre de la madre:</label>
+        <input type="text" placeholder="Madre" name="nombre_madre" id="nombre_madre" />
 
-      <label for="nombre_padre">Nombre del padre:</label>
-      <input type="number" placeholder="Padre" name="" id="nombre_padre" />
+        <label for="nombre_padre">Nombre del padre:</label>
+        <input type="number" placeholder="padre" name="padre" id="nombre_padre" />
 
-      <label for="telefono">Numero de contacto:</label>
-      <input
-        type="tel"
-        placeholder="Telefono"
-        maxlength="8"
-        name=""
-        id="telefono"
-      />
-      <br />
-      <label for="fecha_nacimiento">Fecha de nacimiento:</label>
-      <input
-        type="date"
-        placeholder="Nacimiento del paciente"
-        name=""
-        id="fecha_nacimiento"
-      />
+        <label for="telefono">Numero de contacto:</label>
+        <input type="tel" placeholder="Telefono" maxlength="8" name="telefono" id="telefono" />
+        <br />
+        <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+        <input type="date" placeholder="Nacimiento del paciente" name="fecha_nacimiento" id="fecha_nacimiento" />
 
-      <label for="domicilio">Domicilio:</label>
-      <input type="text" name="" id="domicilio" />
+        <label for="domicilio">Domicilio:</label>
+        <input type="text" name="domicilio" id="domicilio" />
 
-      <label for="c_prenatal">Control prenatal:</label>
-      <textarea name="c_prenatal" id="c_prenatal" cols="30" rows="3"></textarea>
-
-      
-      <br />
-      <!--Datos padre-->
-      <h2>Datos de la madre del paciente</h2>
-      <label for="fecha_madre">Escriba la fecha de nacimiento</label>
-      <input type="date" name="fecha_madre" id="fecha_madre" required >
-      
-
-      <label for="enfermedades_madre">Enfermedades procedentes de la madre</label>
-      <textarea name="enfermedades_madre" id="enfermedades_madre" cols="30" rows="3" placeholder="Escriba las enfermedades de su madre"></textarea>
-
-      <label for="gesta">Gesta</label>
-      <textarea name="gesta" id="gesta" cols="30" rows="3"></textarea>
-
-      <label for="perinatales">perinatales</label>
-      <textarea name="perinatales" id="perinatales" cols="30" rows="3"></textarea>
-      <br>
-
-      <label for="tipo_sanguineo">Escriba el tipo de sangre</label>
-      <input type="text" name="tipo_sanguineo" id="tipo_sanguineo" placeholder="Escribe tu tipo sanguineo" required>
-      
+        <label for="c_prenatal">Control prenatal:</label>
+        <textarea name="c_prenatal" id="c_prenatal" cols="30" rows="3"></textarea>
 
 
-      <br />
-      <!--Datos padre-->
-      <h2>Datos del padre</h2>
-      <label for="fecha_padre">Escriba la fecha de nacimiento:</label>
-      <input type="date" name="fecha_padre" id="fecha_padre">
+        <br />
+        <!--Datos padre-->
+        <h2>Datos de la madre del paciente</h2>
+        <label for="fecha_madre">Escriba la fecha de nacimiento</label>
+        <input type="date" name="fecha_madre" id="fecha_madre" required>
 
-      <label for="fecha_padre">Enfermedades procedentes del padre</label>
-      <textarea name="enfermedades_padre" id="enfermedades_padre" cols="30" rows="3" placeholder="Escriba las Enfermedades de su padre"></textarea>
-    
-      <br />
-      <!--Datos hermano-->
-      <h2>Datos de los hermanos</h2>
-      <label for="fecha_hermanos">Escriba la fecha de nacimento:</label>
-      <input type="date" name="fecha_hermanos" id="fecha_hermanos">
 
-      <label for="Enfermedades_hermanos">Escriba las enfermedades procedente de los hermanos:</label>
-      <textarea name="Enfermedades_hermanos" id="Enfermedades_hermanos" cols="30" cows="3" placeholder="Escriba las Enfermedades de sus hermanos"></textarea>
-      <br>
-      
+        <label for="enfermedades_madre">Enfermedades procedentes de la madre</label>
+        <textarea name="enfermedades_madre" id="enfermedades_madre" cols="30" rows="3" placeholder="Escriba las enfermedades de su madre"></textarea>
 
-      <input type="submit" value="Enviar" />
+        <label for="gesta">Gesta</label>
+        <textarea name="gesta" id="gesta" cols="30" rows="3"></textarea>
+
+        <label for="perinatales">perinatales</label>
+        <textarea name="perinatales" id="perinatales" cols="30" rows="3"></textarea>
+        <br>
+
+        <label for="tipo_sanguineo">Escriba el tipo de sangre</label>
+        <input type="text" name="tipo_sanguineo" id="tipo_sanguineo" placeholder="Escribe tu tipo sanguineo" required>
+
+
+
+        <br />
+        <!--Datos padre-->
+        <h2>Datos del padre</h2>
+        <label for="fecha_padre">Escriba la fecha de nacimiento:</label>
+        <input type="date" name="fecha_padre" id="fecha_padre">
+
+        <label for="fecha_padre">Enfermedades procedentes del padre</label>
+        <textarea name="enfermedades_padre" id="enfermedades_padre" cols="30" rows="3" placeholder="Escriba las Enfermedades de su padre"></textarea>
+
+        <br />
+        <!--Datos hermano-->
+        <h2>Datos de los hermanos</h2>
+        <label for="fecha_hermanos">Escriba la fecha de nacimento:</label>
+        <input type="date" name="fecha_hermanos" id="fecha_hermanos">
+
+        <label for="Enfermedades_hermanos">Escriba las enfermedades procedente de los hermanos:</label>
+        <textarea name="Enfermedades_hermanos" id="Enfermedades_hermanos" cols="30" cows="3" placeholder="Escriba las Enfermedades de sus hermanos"></textarea>
+        <br>
+
+
+        <input type="submit" value="Enviar" />
     </form>
-  </body>
+</body>
+
 </html>

@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web para clinicas</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <a href="datospacientes.html">Registrar pacientes</a>
     <a href="registrodecita.html">Registar una cita</a>
     <h1>Ingrese a su cuenta</h1>
-    <form action="">
-      <label for="usuario">Usuario</label>
-      <input type="text" placeholder="Nombre" id="usuario" required />
-      <br />
+    <form action="#" method="GET" id="inicio_sesion" name="inicio_sesion">
+        <label for="usuario">Usuario</label>
+        <input type="text" placeholder="Nombre" id="usuario" name="usuario" required />
+        <br />
 
-      <label for="contra">Contraseña</label>
-      <input
-        type="password"
-        placeholder="Máximo 20 caracteres"
-        maxlength="20"
-        id="contra"
-        required
-      />
-      <br />
-      <input type="submit" value="Log in" />
+        <label for="contra">Contraseña</label>
+        <input type="password" placeholder="Máximo 20 caracteres" maxlength="20" id="contra" name="contra" required />
+        <br />
+        <input type="submit" value="Log in" />
     </form>
-  </body>
+</body>
+
 </html>
