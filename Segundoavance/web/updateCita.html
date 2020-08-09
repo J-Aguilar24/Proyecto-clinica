@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+        <html>
+    <head>
+        <title>updateCita</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+        <body>
+        <h1>update Cita</h1>
+        <br>
+            
+        <form action="CitaServlet" method="get">
+            Fecha:
+            <br>
+            <input type="date" id="fecha" name="Fecha" />
+            <br><br>
+            Hora:
+            <br>
+            <input type="text" id="hora" name="Hora" />
+            <br><br>
+          
+            <input type="submit" value="Enviar" />
+            <input type="hidden" name="formid" value="1" />
+        </form>
+        <br>
+        <a href="citaMain.html">Volver</a>
+    </body>
+</html>

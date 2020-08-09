@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>updatePaciente</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+        <body>
+        <h1>UpdatePaciente</h1>
+        <br>
+            
+        <form action="PacienteServlet" method="get">
+            Nombre completo:
+            <br>
+            <input type="text" id="nombrecompleto" name="Nombre Completo" />
+            <br><br>
+            Domicilio:
+            <br>
+            <input type="text" id="domicilio" name="Domicilio" />
+            <br><br>
+            Telefono:
+            <br>
+            <input type="number" id="telefono" name="Telefono" />
+            <br><br>
+            Control prenatal:
+            <br>
+            <input type="text" id="controlprenatal" name="Control Prenatal" />
+            <br><br>
+            Lugar de nacimiento:
+            <br>
+            <input type="text" id="lugardenacimiento" name="Lugar de nacimiento" />
+            <br><br>
+            Fecha de nacimiento:
+            <br>
+            <input type="text" id="fechadenacimiento" name="Fecha de nacimiento" />
+            <br><br>
+         
+            <input type="submit" value="Enviar" />
+            <input type="hidden" name="formid" value="1" />
+        </form>
+        <br>
+        <a href="pacienteMain.html">Volver</a>
+    </body>
+</html>

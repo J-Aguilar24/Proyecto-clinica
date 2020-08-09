@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>newMadre</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+        <body>
+        <h1>Nueva Madre</h1>
+        <br>
+            
+        <form action="MadreServlet" method="get">
+            Nombre completo de la madre:
+            <br>
+            <input type="text" id="nombrecompletodemadre" name="Nombre completo de la madre" />
+            <br><br>
+            Fecha de nacimiento de la madre:
+            <br>
+            <input type="date" id="fechadenacimientodelamadre" name="Fecha de nacimiento de la madre" />
+            <br><br>
+            Gesta:
+            <br>
+            <input type="text" id="gesta" name="Gesta" />
+            <br><br>
+            Grupo Rh:
+            <br>
+            <input type="text" id="gruporh" name="Grupo Rh" />
+            <br><br>
+            Enfermedades de la madre:
+            <br>
+            <input type="text" id="enfermedadesdelamadre" name="Enfermedades de la madre" />
+            <br><br>
+            
+         
+            <input type="submit" value="Enviar" />
+            <input type="hidden" name="formid" value="1" />
+        </form>
+        <br>
+        <a href="madreMain.html">Volver</a>
+    </body>
+</html>

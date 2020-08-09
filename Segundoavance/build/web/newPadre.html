@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>newPadre</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+        <body>
+        <h1>Nuevo Padre</h1>
+        <br>
+            
+        <form action="PadreServlet" method="get">
+            Nombre completo de el padre:
+            <br>
+            <input type="text" id="nombrecompletodeelpadre" name="Nombre completo de el padre" />
+            <br><br>
+            Fecha de nacimiento de el padre:
+            <br>
+            <input type="date" id="fechadenacimientodeelpadre" name="Fecha de nacimiento de el padre" />
+            <br><br>
+            
+            
+         
+            <input type="submit" value="Enviar" />
+            <input type="hidden" name="formid" value="1" />
+        </form>
+        <br>
+        <a href="padreMain.html">Volver</a>
+    </body>
+</html>

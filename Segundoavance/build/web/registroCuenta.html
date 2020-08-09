@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrate</title>
+</head>
+
+<body>
+    
+
+    <form action="PersonServlet" method="GET" id="formulario_crearcuenta" name="formulario_crearcuenta">
+        <h2>Registro</h2>
+        <br>
+        <label for="correo_cuenta">Ingresa tu correo electronico:</label>
+        <input type="email" name="correo_cuenta" id="correo_cuenta" />
+        <br><br>
+        <label for="nombre_cuenta">Nombres:</label>
+        <input type="text" placeholder="Escribe nombre" name="nombre_cuenta" id="nombre_cuenta" />
+        <br> <br>
+        <label for="apellidos_cuenta">Apellidos:</label>
+        <input type="text" name="apellidos_cuenta" id="apellidos_cuenta" />
+        <br><br>
+        <label for="usuario">Escoge tu usuario:</label>
+        <input type="text" name="usuario" id="usuario" />
+        <br>
+        <br>
+        <label for="contra">Escoge tu contrasena:</label>
+        <input type="password" name="contra" id="contra" />
+        <br><br>
+     
+
+        <input type="submit" value="Enviar" />
+    </form>
+     <br>
+        <a href="index.html">Regresar</a>
+</body>
+
+</html>
